@@ -16,7 +16,7 @@ library(openxlsx)
 
 #### prep ----
 
-setwd('/Users/zhshi/GoogleDrive/# Documents/2026/OUD rest/R')
+setwd('/Users/zhshi/Documents/2026/OUD rest/R')
 source('R.Analysis_Prep.R')
 
 datBehav <- read.csv("R.Source_Behav.csv", na.strings = c("NA","NaN","nan","#N/A","")) %>% 
